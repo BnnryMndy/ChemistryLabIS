@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/addLab.js"></script>
     <title>Добавление лабораторной работы</title>
 </head>
 <body>
+    <div class="container">
     <form action="" method="get">
         
         <label for="labnumber">Номер лабораторной работы </label>
@@ -23,9 +25,10 @@
             <label for="rightAwnser">правильный ответ</label>
             <input name="rightAwnser" type="text">
         </fieldset>
-        <input type="button" value="Добавить задание">
-        
+        <input id="button-0" class="addTask" onclick="addTask()" type="button" value="Добавить задание">
+
         <input type="submit" value="Отправить">
     </form>
+    </div>
 </body>
 </html>

@@ -8,14 +8,14 @@
         $row = $result->fetch_assoc();
         if(1 == $row['COUNT(*)']){
             setcookie('Login', $login, mktime(). time()+60*60*24*30);
-            header("Location: http://localhost/ChemistryLabs/StudentCabinet.php");
+            header("Location: StudentCabinet.php");
         }
         else{
             $result = $mysqli->query("SELECT COUNT(*) FROM `teachers` WHERE lower(`teacher_login`) = lower('$login') and `Password` = '$passwrd' ");
             $row = $result->fetch_assoc();
             if(1 == $row['COUNT(*)']){
                 setcookie('Login', $login, mktime(). time()+60*60*24*30);
-                header("Location: http://localhost/ChemistryLabs/TeacherCabinet.php");
+                header("Location: TeacherCabinet.php");
             }
         }
     ?>
