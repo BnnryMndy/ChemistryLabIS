@@ -6,7 +6,7 @@ function addTask() {
     }
     taskCounter += 1;
 
-    $("#button-0").before("<div id=" + taskCounter + "></div>");
+    $(".btn-group").before("<div class='card  m-2 p-3' id=" + taskCounter + "></div>");
     $("#" + taskCounter).load("templates/taskForm.html");
     console.log(taskCounter);
     // $(".addTask").last().attr("id", "button-" + taskCounter);

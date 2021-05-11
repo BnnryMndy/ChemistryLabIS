@@ -1,9 +1,14 @@
 <fieldset>
     <legend>Добавление задания</legend>
-    <label for="taskDescription">Задание</label>
-    <input name="taskDescription" type="text"> Добавить правильный ответ?
+    <div class="form-floating">
+        <textarea class="form-control" id="floatingTextarea"></textarea>
+        <label for="floatingTextarea">Задание</label>
+    </div>
+    Добавить правильный ответ?<br>
     <input type="radio" name="isHaveAwnser" id="yes">Да
     <input type="radio" name="isHaveAwnser" id="no">Нет
-    <label for="rightAwnser">правильный ответ</label>
-    <input name="rightAwnser" type="text">
+    <div class="form-floating">
+        <textarea class="form-control" id="rightAnswer"></textarea>
+        <label for="rightAnswer">правильный ответ</label>
+    </div>
 </fieldset>
