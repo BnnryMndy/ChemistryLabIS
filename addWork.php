@@ -9,7 +9,10 @@
 </head>
 <body>
     <div class="container">
-    <h1>Лабораторная работа 3</h1>
+    <?require "templates/header.php";?>
+    <h1 class="mt-5">Лабораторная работа 3</h1>
+    <a href="StudentCabinet.php" class="btn btn-outline-warning">Отмена</a>
+
     <h5>Название лабораторной работы</h5>
 
     <p>Упражнение лабораторной работы</p>

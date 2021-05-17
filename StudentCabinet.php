@@ -9,13 +9,30 @@
 </head>
 <body>
     <div class="container">
-    <div class="card">
+        <?require "templates/header.php";?>
+        <h1 class="mt-5">C возращением,</h1>
+        <h2 class="text-muted mb-5">Яшин Алексей</h2>
+
+        <h3>Выданные работы</h3>
+        <div class="card">
             <div class="card-body p-2">
             <h5 class="card-title">Лабраторная работа 3</h5>
                 <p class="text-success"><b class="text-secondary">статус:</b> выданно</p>
                 <a href="#" class="btn btn-primary">Приступить к выполнению</a>
             </div>
         </div>
+        <h3 class="mt-5">Проверенные работы</h3>
+
+        <div class="card">
+            <div class="card-body p-2">
+            <h5 class="card-title">Лабраторная работа 2</h5>
+                <p class="text-success"><b class="text-secondary">статус:</b> оценено</p>
+                <p class="text-success"><b class="text-secondary">оценка:</b> 8/10</p>
+            </div>
+        </div>
+
     </div>
+
+    
 </body>
 </html>
