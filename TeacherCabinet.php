@@ -18,9 +18,10 @@
             <div class="card">
                 <div class="card-body p-2">
                 <h5 class="card-title">Лабраторная работа 3</h5>
+                    <p class="text-secondary">7 класс</p>
                     <p class="text-success"><b class="text-secondary">статус:</b> выданно</p>
                     <p class="text-warning"><b class="text-secondary">Осталось проверить:</b> 5</p>
-                    <a href="#" class="btn btn-primary">Приступить к проверке</a>
+                    <a href="labsList.php" class="btn btn-primary">Приступить к проверке</a>
                 </div>
             </div>
     </div>
