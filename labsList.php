@@ -16,7 +16,7 @@
             <div class="card mb-3">
                 <div class="card-body p-2">
                 <h5 class="card-title">Яшин Алексей</h5>
-                    <p class="text-success"><b class="text-secondary">статус:</b> сданно</p>
+                    <p class="text-warning"><b class="text-secondary">статус:</b> сданно</p>
                     
                     <a href="#" class="btn btn-primary">Приступить к проверке</a>
                 </div>
@@ -25,8 +25,8 @@
             <div class="card mb-3">
                 <div class="card-body p-2">
                 <h5 class="card-title">Лазарев Антон</h5>
-                    <p class="text-success"><b class="text-secondary">статус:</b> сданно</p>
-                    <a href="#" class="btn btn-primary">Приступить к проверке</a>
+                    <p class="text-success"><b class="text-secondary">статус:</b> Проверенно</p>
+                    <a href="#" class="btn btn-primary">Просмотреть</a>
                 </div>
             </div>
     </div>
