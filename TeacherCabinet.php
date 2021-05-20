@@ -17,9 +17,9 @@
         <a class="btn btn-outline-primary mb-3 mt-3" href="AddLab.php">Добавить лабораторную работу</a>
             <div class="card">
                 <div class="card-body p-2">
-                <h5 class="card-title">Лабраторная работа 3</h5>
+                <h5 class="card-title">Лабораторная работа 3</h5>
                     <p class="text-secondary">7 класс</p>
-                    <p class="text-success"><b class="text-secondary">статус:</b> выданно</p>
+                    <p class="text-success"><b class="text-secondary">статус:</b> выдано</p>
                     <p class="text-warning"><b class="text-secondary">Осталось проверить:</b> 5</p>
                     <a href="labsList.php" class="btn btn-primary">Приступить к проверке</a>
                 </div>
