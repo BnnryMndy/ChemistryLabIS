@@ -17,6 +17,8 @@
         <h1 class="mt-5">C возращением,</h1>
         <h2 class="text-muted mb-5"><?echo $firstName." ".$fatherName;?></h2>
         <a class="btn btn-outline-primary mb-3 mt-3" href="AddLab.php">Добавить лабораторную работу</a>
+            <??>
+            
             <div class="card">
                 <div class="card-body p-2">
                 <h5 class="card-title">Лабораторная работа 3</h5>
