@@ -8,6 +8,7 @@
     <title>ЛР к проверке</title>
 </head>
 <body>
+<?require "php/db_auth.php";?>
 <div class="container">
         <?require "templates/header.php";?>
         <h1 class="mt-5">Лабораторные работы 3</h1>
