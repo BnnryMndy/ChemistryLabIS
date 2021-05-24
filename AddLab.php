@@ -25,16 +25,32 @@
 
       <form action="" method="POST">
         <div class="form-floating m-2">
-          <input type="number" id="labNumber" class="form-control">
+          <input required type="number" id="labNumber" name="labNumber" class="form-control">
           <label class="form-label" for="labNumber">Номер лабораторной работы</label>
         </div>
 
         <div class="form-floating m-2">
-          <input type="number" id="labClass" class="form-control">
+          <input required type="text" id="labName" name="labName" class="form-control">
+          <label class="form-label" for="labName">Название лабораторной работы</label>
+        </div>
+
+        <div class="form-floating m-2">
+          <input required type="number" name="labClass" id="labClass" class="form-control">
           <label class="form-label" for="labClass">Номер класса</label>
         </div>
 
-        <div class="card m-2 p-3">
+        <div class="form-floating m-2">
+          <input required type="date" name="releaseDate" id="releaseDate" class="form-control">
+          <label class="form-label" for="releaseDate">Дата выдачи</label>
+        </div>
+
+        <div class="form-floating m-2">
+          <input required type="date" name="deadline" id="deadline" class="form-control">
+          <label class="form-label" for="deadline">Срок сдачи</label>
+        </div>
+
+
+        <!-- <div class="card m-2 p-3">
           <fieldset>
             <legend>Добавление задания</legend>
             <div class="form-floating">
@@ -49,12 +65,12 @@
                 <label for="rightAnswer">правильный ответ</label>
             </div>
           </fieldset>
-        </div>
+        </div> -->
         <div class="form-outline">
           <div style="margin-top: 40px;" class="btn-group" role="group" aria-label="Basic example">
             <input class="btn btn-primary addTask" id="button-0" onclick="addTask()" type="button" value="Добавить задание"> 
             <input disabled class="btn btn-danger" id="none-del"  onclick="delTask()" type="button" value="удалить задание">
-            <input  class="btn btn-success" type="submit" value="Отправить">
+            <input id="btn-submit" class="btn btn-success" type="button" onclick="sendTask()" value="Отправить">
           </div>
         </div>
       </form>
